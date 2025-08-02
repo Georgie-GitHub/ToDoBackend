@@ -6,7 +6,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 const app = express();
 const PORT = process.env.PORT || 8080;
-const MONGO = process.env.MONGOURL;
+const MONGO = "mongodb+srv://ToDoApp:todo123@cluster0.ysajnq0.mongodb.net/";
 app.use(express.json());
 
 app.use(
